@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "GothamPro";
+    src: url('/fonts/GothamPro.ttf');
+}
+
+body {
+    font-family: GothamPro;
+}
+nav {
+    background: transparent;
+    height: 100px;
+    font-size: 14px;
+    line-height: 1.2;
+    .container-fluid {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .logo {
+        background: url('/images/logo.png') center no-repeat;
+        width: 165px;
+        height: 60px;
+    }
+
+    .phone {
+        font-size: 30px;
+        line-height: unset;
+    }
+
+}
