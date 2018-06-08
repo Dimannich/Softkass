@@ -29,4 +29,182 @@ nav .phone {
   font-size: 30px;
   line-height: unset;
 }
+
+.bg1 {
+  background: #2db2f0;
+}
+
+.bg2 {
+  background: url("/images/bg2.png") no-repeat;
+  background-size: 100% 905px;
+  height: 905px;
+}
+
+.bg2 h1 {
+  height: 260px;
+  font-size: 48px;
+}
+
+.bg2 .right-col {
+  background: url("/images/lines.png") no-repeat;
+  background-position: 50% 165px;
+}
+
+.bg2 .right-col .header {
+  background: url("/images/bg2-header.png") no-repeat;
+  background-position: 50%;
+  height: 60px;
+  color: white;
+}
+
+.bg2 .right-col .counters {
+  font-size: 20px;
+  margin-top: 80px;
+}
+
+.bg2 .right-col .counters .label {
+  background: url("/images/counterbg.png") no-repeat;
+  width: 65px;
+  height: 60px;
+  color: white;
+  font-size: 45px;
+}
+
+.bg2 .right-col .counters .link {
+  color: #e6007e;
+  font-size: 16px;
+}
+
+.bg2 .left-col {
+  background: url("/images/bg2-left-col.png") no-repeat;
+  color: white;
+  max-width: 420px;
+}
+
+.bg2 .left-col h2 {
+  height: 80px;
+}
+
+.bg2 .left-col > p {
+  max-width: 220px;
+}
+
+.bg2 .left-col .hours {
+  font-size: 30px;
+}
+
+.bg2 .left-col .hours-counter {
+  font-size: 118px;
+  line-height: .8;
+}
+
+.bg2 .left-col .fn {
+  background: url("/images/FN.png") 0 0 no-repeat;
+  width: 300px;
+  height: 220px;
+  background-position: center;
+  right: -170px;
+  bottom: -120px;
+}
+
+.bg3 {
+  height: 1610px;
+  background: #f5f5f5;
+}
+
+.bg3 h1 {
+  height: 300px;
+  font-size: 48px;
+}
+
+.bg3 h1 span {
+  font-size: 30px;
+}
+
+.bg3 .product {
+  background-color: white;
+  background-clip: content-box;
+}
+
+.bg3 .product-name {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.bg3 .product-name::after {
+  width: 45px;
+  height: 10px;
+  content: '';
+  position: absolute;
+  border-bottom: 1px solid #2980b9;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bg3 .purchase-btn {
+  max-width: 240px;
+  height: 48px;
+}
+
+.bg3 .purchase-btn .link {
+  font-size: 18px;
+  position: relative;
+}
+
+.bg3 .purchase-btn .link::after {
+  margin-left: 40px;
+  content: '';
+  width: 40px;
+  height: 40px;
+  background: url("/images/cart-icon.png") no-repeat;
+  background-position: center;
+  position: absolute;
+  right: 20px;
+}
+
+.bg3 .catalog {
+  width: 360px;
+  height: 48px;
+}
+
+.bg3 .catalog .link {
+  font-size: 18px;
+}
+
+.bg3 .product-img {
+  width: 160px;
+  height: 160px;
+}
+
+.bg3 .detail {
+  margin-bottom: 35px;
+  color: #434343;
+  text-decoration: underline;
+}
+
+.bg3 .price {
+  font-size: 30px;
+}
+
+.bg3 .text-block {
+  font-size: 12px;
+  line-height: 24px;
+  max-width: 310px;
+}
+
+.btn-orange {
+  width: 340px;
+  height: 60px;
+}
+
+.btn-orange .link {
+  font-size: 24px;
+  color: white;
+  background-image: linear-gradient(-57deg, #e57100 0%, #fba941 100%);
+}
+
+.content-row {
+  max-width: 1180px;
+}
 /*# sourceMappingURL=styles.css.map */
