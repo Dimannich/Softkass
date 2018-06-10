@@ -10,13 +10,17 @@
     <!-- <link rel="stylesheet" href="/maps/documentation/javascript/demos/demos.css"> -->
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light position-absolute mx-auto" style="left: 0;right:0;">
+    <nav class="navbar navbar-expand-lg navbar-light mx-auto" style="left: 0;right:0;">
         <div class="container-fluid" style="max-width: 1200px;">
-            <a class="navbar-brand logo col-2  mr-0" href="#"></a>
-            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            
+            <button class="navbar-toggler d-md-none col-2 px-0 border-0" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="d-block navbar-menu-icon mx-auto"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <a class="navbar-brand logo col-8 col-md-3 col-lg-3 col-xl-2  mr-0" href="#"></a>
+            <button class="navbar-toggler d-md-none col-2 border-0" type="button">
+                <span class="d-block cart-icon"></span>
+            </button>
+            <!-- <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link" href="#">Features</a>
@@ -24,12 +28,13 @@
                     <a class="nav-item nav-link disabled" href="#">Disabled</a>
                 </div>
             </div> -->
-            <div class="col">Онлайн-кассы для любого бизнеса по ценам от изготовителей</div>
-            <address class="col-3 mb-0 text-right pr-0">
+            <div class="col text-center text-md-left mt-3 mt-md-0">Онлайн-кассы для любого бизнеса по ценам от изготовителей</div>
+            <address class="d-none d-lg-block col-3 mb-0 text-right pr-0">
                 г. Хабаровск, ул. Истомина 41 
                 <br> <span>пн.-пт. 9:00 - 18:00</span>
             </address>
-            <div class="col phone text-right">
+            <div class="w-100 d-md-none"></div>
+            <div class="col phone text-center text-md-right">
                 +7 (4212) 78-80-15
             </div>
         </div>
@@ -44,13 +49,13 @@
                                 <p class="col-12 d-flex flex-column header">
                                     Запишись на консультацию в офис <span>и получи сертификат на 3000 руб. </span> на покупку любой онлайн кассы
                                 </p>
-                                <p class="col-6 info">
+                                <p class="col-12 col-md-6 info">
                                     Какой то продающий текст Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                 </p>
-                                <div class="col-12 text-block">
+                                <div class="col-12 text-block d-none d-md-block">
                                     <div><span class="attention position-relative">Внимание!</span> Осталось всего <span class="certificates position-relative d-inline-flex"></span> сертификата</div>
                                 </div>
-                                <div class="mt-5 btn-orange ml-3">
+                                <div class="mt-5 btn-orange col-12 col-md-6 col-lg-5 col-xl-4">
                                     <a class="align-items-center col d-flex h-100 justify-content-center link" href="#">Получить сертификат</a>
                                 </div>
                             </div>
@@ -61,8 +66,8 @@
         <div class="row bg2">
             <div class="col-12 d-flex justify-content-center">
                 <div class="align-content-start row content-row">
-                    <h1 class="align-items-center col-12 d-flex justify-content-center">Осталось мало времени?</h1>
-                    <div class="align-items-center col-5 d-flex flex-column left-col mx-auto position-relative">
+                    <h1 class="align-items-center col-12 d-flex justify-content-center">Осталось <br class="d-md-none">мало времени?</h1>
+                    <div class="align-items-center col-12 col-md-5 d-flex flex-column left-col mx-auto position-relative">
                         <h2 class="d-flex align-items-center">Только у нас</h2>
                         <p class="text-center">
                             установка онлайн-кассы под ключ всего за
@@ -71,17 +76,17 @@
                                 <span class="hours-counter d-flex">48</span> 
                             часов
                         </div>
-                        <div class="fn position-absolute"></div>
+                        <div class="fn d-none d-lg-block position-absolute"></div>
                     </div>
-                    <div class="align-items-center col-6 d-flex flex-column right-col">
+                    <div class="align-items-center col-12 col-md-6 d-flex flex-column right-col">
                         <h2 class="align-items-end d-flex header justify-content-center text-center w-100">Всегда в наличии</h2>
                         <p class="text-block text-center mt-3">фискальные накопители, соответствующие требованиям контролирующих органов и поддерживающие работу <br> c любой ККТ</p>
                         <div class="row counters w-100">
-                            <div class="col-6 pr-5">
+                            <div class="col-12 col-md-6 pr-md-5 mb-5 mb-md-0">
                                 <div class="align-items-end d-flex justify-content-center">ФН на <span class="label text-center mx-2">15</span> мес.</div>
-                                <a class="d-flex link mt-1 justify-content-center pl-4" href="#">Осталось 83 шт.</a>
+                                <a class="d-flex link mt-1 justify-content-center pl-0 pl-md-4" href="#">Осталось 83 шт.</a>
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-md-6">
                                 <div class="align-items-end d-flex justify-content-center">ФН на <span class="label text-center mx-2">36</span> мес.</div>
                                 <a class="d-flex link mt-1 justify-content-center" href="#">Осталось 60 шт.</a>
                             </div>
@@ -95,9 +100,9 @@
         </div>
         <div class="row bg3">
             <div class="col-12 d-flex justify-content-center">
-                <div class="align-content-start row content-row">
+                <div class="align-content-start row content-row justify-content-sm-center">
                     <h1 class="align-items-center col-12 d-flex justify-content-center flex-column">Самые популярные предложения <span class="d-flex">этого месяца</span></h1>
-                    <div class="product col-4 justify-content-center d-flex flex-column align-items-center">
+                    <div class="product col-12 col-sm-8  col-md-6 col-lg-4 justify-content-center d-flex flex-column align-items-center">
                         <div>
                             <img src="images/atol.png" class="product-img" />
                             <div></div>
@@ -110,7 +115,7 @@
                         </div>
                         <a class="d-flex mt-2 detail" href="#">Подробнее о кассе</a>
                     </div>
-                    <div class="product col-4 justify-content-center d-flex flex-column align-items-center">
+                    <div class="product col-sm-8  col-12 col-md-6 col-lg-4 justify-content-center d-flex flex-column align-items-center">
                             <div>
                                 <img src="images/atol.png" class="product-img" />
                                 <div></div>
@@ -123,7 +128,7 @@
                             </div>
                             <a class="d-flex mt-2 detail" href="#">Подробнее о кассе</a>
                         </div>
-                        <div class="product col-4 justify-content-center d-flex flex-column align-items-center">
+                        <div class="product col-12 col-sm-8  col-md-6 col-lg-4 justify-content-center d-flex flex-column align-items-center">
                                 <div>
                                     <img src="images/atol.png" class="product-img" />
                                     <div></div>
@@ -136,7 +141,7 @@
                                 </div>
                                 <a class="d-flex mt-2 detail" href="#">Подробнее о кассе</a>
                             </div>
-                            <div class="product col-4 justify-content-center d-flex flex-column align-items-center">
+                            <div class="product col-12 col-sm-8  col-md-6 col-lg-4 justify-content-center d-flex flex-column align-items-center">
                                 <div>
                                     <img src="images/atol.png" class="product-img" />
                                     <div></div>
@@ -149,7 +154,7 @@
                                 </div>
                                 <a class="d-flex mt-2 detail" href="#">Подробнее о кассе</a>
                             </div>
-                            <div class="product col-4 justify-content-center d-flex flex-column align-items-center">
+                            <div class="product col-12 col-sm-8  col-md-6 col-lg-4 justify-content-center d-flex flex-column align-items-center">
                                 <div>
                                     <img src="images/atol.png" class="product-img" />
                                     <div></div>
@@ -162,7 +167,7 @@
                                 </div>
                                 <a class="d-flex mt-2 detail" href="#">Подробнее о кассе</a>
                             </div>
-                            <div class="product col-4 justify-content-center d-flex flex-column align-items-center">
+                            <div class="product col-12 col-sm-8  col-md-6 col-lg-4 justify-content-center d-flex flex-column align-items-center">
                                 <div>
                                     <img src="images/atol.png" class="product-img" />
                                     <div></div>
@@ -176,7 +181,7 @@
                                 <a class="d-flex mt-2 detail" href="#">Подробнее о кассе</a>
                             </div>
                     <div class="col-12 justify-content-center d-flex my-5">
-                        <div class="btn-orange catalog">
+                        <div class="btn-orange catalog mb-5 mb-md-0">
                             <a class="align-items-center col d-flex h-100 justify-content-center link" href="#">Перейти в каталог</a>
                         </div>
                     </div>
@@ -186,8 +191,8 @@
         <div class="row bg4">
             <div class="col-12 d-flex justify-content-center">
                 <div class="align-content-start row content-row justify-content-center line-bg">
-                <h1 class="align-items-center col-12 text-center justify-content-center">Хотите сэкономить <span class="d-inline">18 000</span> рублей <br> при покупке онлайн-кассы?</h1>
-                <div class="col-6 px-0 left-col position-relative">
+                <h1 class="align-items-center col-12 text-center justify-content-center">Хотите сэкономить <br class="d-lg-none"> <span class="d-inline">18 000</span> рублей <br> при покупке онлайн-кассы?</h1>
+                <div class="col-12 col-lg-6 px-0 left-col position-relative">
                         <div class="left-card">
                             <div class="counter">01</div>
                             <h2 class="mb-4 pl-70" style="padding-top: 70px;">Заявка на регистрацию</h2>
@@ -197,11 +202,11 @@
                                     <a class="align-items-center col d-flex h-100 justify-content-center link" href="#">Оставить заявку</a>
                             </div>
                         </div>
-                        <div class="col-12 tip">
+                        <div class="col-12 tip d-none d-lg-block">
                             * До 01.07.2018 года индивидуальные предприниматели, работающие ПСН или ЕНВД, могут получить налоговый вычет до 18 000 рублей за каждый экземпляр ККТ 
                         </div>
                     </div>
-                <div class="col-6 px-0 right-col position-relative" style="margin-top: 220px;">
+                <div class="col-12 col-lg-6 px-0 right-col position-relative">
                    
                         <div class="right-card">
                                 <div class="counter">02</div>
@@ -210,6 +215,9 @@
                         <p class="pl-70 info">Подготовка документов займет всего 30 минут</p>
                         </div>
                 </div>
+                <div class="col-12 tip d-lg-none">
+                        * До 01.07.2018 года индивидуальные предприниматели, работающие ПСН или ЕНВД, могут получить налоговый вычет до 18 000 рублей за каждый экземпляр ККТ 
+                    </div>
                 </div>
             </div>
         </div>
@@ -220,7 +228,7 @@
                             <h1 class="col-12 text-center">Большой выбор POS-систем</h1>
                             <h2 class="col-12 text-center">Решение для какой-то рекламный текст</h2>
                         </div>
-                        <div class="product col-4 justify-content-center d-flex flex-column align-items-center">
+                        <div class="product col-12 col-sm-8  col-md-6 col-lg-4 justify-content-center d-flex flex-column align-items-center">
                                 <div>
                                     <img src="images/atol.png" class="product-img" />
                                     <div></div>
@@ -233,7 +241,7 @@
                                 </div>
                                 <a class="d-flex mt-2 detail" href="#">Подробнее о кассе</a>
                             </div>
-                            <div class="product col-4 justify-content-center d-flex flex-column align-items-center">
+                            <div class="product  col-12 col-sm-8  col-md-6 col-lg-4 justify-content-center d-flex flex-column align-items-center">
                                     <div>
                                         <img src="images/atol.png" class="product-img" />
                                         <div></div>
@@ -246,7 +254,7 @@
                                     </div>
                                     <a class="d-flex mt-2 detail" href="#">Подробнее о кассе</a>
                                 </div>
-                                <div class="product col-4 justify-content-center d-flex flex-column align-items-center">
+                                <div class="product col-12 col-sm-8  col-md-6 col-lg-4 justify-content-center d-flex flex-column align-items-center">
                                         <div>
                                             <img src="images/atol.png" class="product-img" />
                                             <div></div>
@@ -259,8 +267,8 @@
                                         </div>
                                         <a class="d-flex mt-2 detail" href="#">Подробнее о кассе</a>
                                     </div>
-                                    <div class="col-12 justify-content-center d-flex my-5">
-                                            <div class="btn-orange catalog">
+                                    <div class="col-12 justify-content-center d-flex mt-4 mb-5 my-md-5">
+                                            <div class="btn-orange catalog mb-4 mb-md-0">
                                                 <a class="align-items-center col d-flex h-100 justify-content-center link" href="#">Перейти в каталог</a>
                                             </div>
                                         </div>
@@ -271,29 +279,29 @@
             <div class="col-12 d-flex justify-content-center">
                 <div class="align-content-start row content-row justify-content-center">
                     <div class="headers col-12 d-flex flex-column justify-content-end">
-                        <h2 class="text-center">Нет времени на подбор оборудования?</h2>
-                        <h1 class="text-center mb-4">Выбирай готовые решения!</h1>
+                        <h2 class="text-center">Нет времени<br class="d-md-none"> на подбор оборудования?</h2>
+                        <h1 class="text-center mb-4">Выбирайте готовые решения!</h1>
                     </div>
-                    <div class="col-4 text-center">
+                    <div class="col-4 text-center d-none d-md-block">
                         <img src="/images/icon1.png" />
                         <p class="text-center icon-tip mx-auto">Мы оборудуем "под ключ" любую кассовую зону: от сети гипермаркетов до магазина у дома</p>
                     </div>
-                    <div class="col-4 text-center">
+                    <div class="col-4 text-center d-none d-md-block">
                         <img src="/images/icon2.png" />
                         <p class="text-center icon-tip mx-auto">Предлагаем более 15 готовых <br> решений для любой сферы бизнеса</p>
                     </div>
-                    <div class="col-4 text-center">
+                    <div class="col-4 text-center d-none d-md-block">
                         <img src="/images/icon3.png" />
                         <p class="text-center icon-tip mx-auto">Подберем индивидуальные решения любой сложности</p>
                     </div>
                             
-                    <div class="col-9 d-flex justify-content-center form-bg mt-5 position-relative">
+                    <div class="col-12 col-md-9 d-flex justify-content-center form-bg mt-5 position-relative">
                         <form class="row" method="POST">
-                                <div class="form-headers">
-                                    <h1>Просто заполните форму</h1>
+                                <div class="form-headers position-relative">
+                                    <h1>Просто <br class="d-md-none"> заполните форму</h1>
                                     <h2 class="text-center">И мы подберем оптимальное решение для вашего бизнеса</h2>
                                 </div>
-                                <div class="form-group col-6 mb-0 left">
+                                <div class="form-group col-12 col-md-6 mb-0 left">
                                     <label>Выберите сферу деятельности</label>
                                     <select class="custom-select">
                                         <option>Интернет-магазин</option>
@@ -305,7 +313,7 @@
                                         <option>Другое</option>
                                     </select>
                                 </div>
-                                <div class="form-group col-6 mb-0 right">
+                                <div class="form-group col-12 col-md-6 mb-0 right">
                                     <label>Укажите количество сотрудников</label>
                                     <select class="custom-select">
                                         <option>1</option>
@@ -319,16 +327,16 @@
                                     <label>Дополнительная информация (необзятально)</label>
                                     <textarea class="form-control" rows="4"></textarea>
                                 </div>
-                                <div class="form-group col-6 left">
+                                <div class="form-group col-12 col-md-6 left">
                                     <label>Ваше имя</label>
                                     <input class="form-control" />
                                 </div>
-                                <div class="form-group col-6 right">
+                                <div class="form-group col-12 col-md-6 right">
                                     <label>Ваш телефон</label>
                                     <input class="form-control" />
                                 </div>
                                 <div class="btn-orange w-100 both">
-                                    <button type="submit" class="border-0 rounded-0 btn align-items-center col d-flex h-100 justify-content-center link">Получить точный расчет</button>
+                                    <button type="submit" class="border-0 rounded-0 btn align-items-center col d-flex h-100 justify-content-center link">Получить расчет</button>
                                 </div>
                         </form>
                     </div>
@@ -338,7 +346,7 @@
         <div class="row bg7">
             <div class="col-12 d-flex justify-content-center">
                 <div class="align-content-start row content-row justify-content-center list-bg">
-                    <div class="headers col-12 d-flex flex-column justify-content-center">
+                    <div class="headers col-12 d-flex flex-column justify-content-start justify-content-sm-center">
                         <h1>Блок про договор</h1>
                         <h2>Lorem ipsum dolor sit amet, consectetur adipisicing</h2>
                     </div>
@@ -354,33 +362,33 @@
         </div>
         <div class="row bg8">
             <div class="col-12 d-flex justify-content-center">
-                <div class="align-content-start row content-row">
+                <div class="align-content-start row content-row justify-content-center justify-content-xl-start">
                     <h1 class="col-12 d-flex justify-content-center align-items-center">Наши партнеры</h1>
-                    <div class="col-3 logo" style="margin-left: 65px;"><img src="/images/evotur-logo.png"></div>
-                    <div class="col-3 logo"><img src="/images/atol-logo.png"></div>
-                    <div class="col-3 logo mb-4"><img src="/images/shtrih-m-logo.png"></div>
-                    <div class="col-3 logo" style="margin-left: 195px;"><img src="/images/dreamkas-logo.png"></div>
-                    <div class="col-3 logo"><img src="/images/sbis-logo.png"></div>
-                    <div class="col-3 logo"><img src="/images/taxcom-logo.png"></div>
+                    <div class="col-6 col-md-3 logo logo-offset1"><img src="/images/evotur-logo.png"></div>
+                    <div class="col-6 col-md-3 logo mb-4"><img src="/images/atol-logo.png"></div>
+                    <div class="col-6 col-md-3 logo mb-4"><img src="/images/shtrih-m-logo.png"></div>
+                    <div class="col-6 col-md-3 logo logo-offset2"><img src="/images/dreamkas-logo.png"></div>
+                    <div class="col-6 col-md-3 logo"><img src="/images/sbis-logo.png"></div>
+                    <div class="col-6 col-md-3 logo"><img src="/images/taxcom-logo.png"></div>
                 </div>
             </div>
         </div>
         <div class="row bg9">
             <div class="col-12 h-100 px-0 position-relative">
-                <div id="map" class="h-100 w-100 position-absolute"></div>
-                <div class="align-content-start row content-row justify-content-end mx-auto">
-                        <article class="col-4 h-100">
-                                <h1 class="d-flex justify-content-center align-items-center">Где мы находимся</h1>
-                                <img src="/images/office.png">
-                                <address class="mb-4">
-                                    <p class="text-center address mt-4 mb-2">ул. Истомина 41</p>
-                                    <p class="text-center time">пн-пт 9:00-18:00</p>
-                                    <p class="text-center phone mb-1">+7 (4214) 78-80-15</p>
-                                    <p class="text-center mail">softkassa@gmail.com</p>
-                            </address>
-                        <p class="mb-0 align-items-center d-flex info text-center justify-content-center">Внимание! Для наших клиентов у нас <br> всегда есть свободная парковка</p>
-                    </article>
-                </div>
+                    <div class="align-content-start row content-row justify-content-end mx-auto">
+                            <article class="col-12 col-lg-5 col-md-5 col-xl-4 h-100 px-0 mx-auto mx-md-0">
+                                    <h1 class="d-flex justify-content-center align-items-center">Где мы находимся</h1>
+                                    <img class="w-100" src="/images/office.png">
+                                    <address class="mb-4">
+                                        <p class="text-center address mt-4 mb-2">ул. Истомина 41</p>
+                                        <p class="text-center time">пн-пт 9:00-18:00</p>
+                                        <p class="text-center phone mb-1">+7 (4214) 78-80-15</p>
+                                        <p class="text-center mail">softkassa@gmail.com</p>
+                                </address>
+                            <p class="mb-0 align-items-center d-flex info text-center justify-content-center">Внимание! Для наших клиентов у нас <br> всегда есть свободная парковка</p>
+                        </article>
+                    </div>
+                <div id="map" class="w-100 map"></div>
             </div>
               
            
@@ -405,11 +413,12 @@
         <footer class="row footer">
             <div class="col-12 justify-content-center">
                 <div class="h-100 mx-auto align-content-start row content-row justify-content-center">
-                    <div class="col-6 d-flex flex-column justify-content-center">
+                    <div class="px-0 px-sm-3 col-12 col-sm-6 d-flex flex-column justify-content-center">
                         <p>Онлайн-кассы для любого бизнеса <br> по ценам от изготовителей</p>
-                        <p class="info mb-0">ИП Пак В.В. ЦТО Софт Касс ИНН 272590285600 ОГРН 317272400015828</p>
+                        <a class="d-flex d-sm-none link mx-auto" href="#">Политика конфиденциальности</a>    
+                        <p class="info mb-0">ИП Пак В.В. ЦТО Софт Касс <br class="d-sm-none"> ИНН 272590285600 ОГРН 317272400015828</p>
                     </div>
-                    <div class="col-6 d-flex justify-content-end">
+                    <div class="d-none d-sm-flex col-sm-6 justify-content-end">
                             <a class="mt-auto d-flex link" href="#">Политика конфиденциальности</a>    
                     </div>
                 </div>

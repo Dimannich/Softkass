@@ -1,0 +1,77 @@
+@media(min-width: 992px) {
+
+    nav {
+        .logo {
+            max-width: 170px; 
+        }
+
+        .phone {
+            min-width: 310px;
+        }
+    }
+
+    .bg4 {
+        .left-card {
+            max-width: unset;
+        }
+    }
+    .bg7 {
+        .list-bg {
+            background: unset;
+        }
+    }
+
+    .bg6 {
+        .form-bg {
+            background: unset;
+            &::after {
+                display: block;
+            }
+
+            .form-headers {
+                width: 100%;
+
+                background: #8f99cd;
+                h1 {
+                    font-size: 40px;
+                    line-height: 48px;
+                    text-align: center;
+                }
+                h2 {
+                    font-size: 20px;
+                    line-height: 30px;
+                    margin-bottom: 15px;
+                }
+
+                &::after {
+                    content: '';
+                    background: url(/images/form-tail.png) no-repeat;
+                    width: 100px;
+                    height: 40px;
+                    position: absolute;
+                    left: 50%;
+                    background-size: contain;
+                    transform: translateX(-50%);
+                    bottom: -38px;
+                }
+            }
+
+            form {
+                background: #eef5f7;
+            }
+        }
+        
+    } 
+
+    .bg8 {
+        .logo {
+            margin: 0 ;
+            padding: 0 3px;
+            
+            img {
+                margin-bottom: 5px;
+            }
+        }
+        
+    }
+}

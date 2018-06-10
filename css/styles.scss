@@ -3,6 +3,18 @@
     src: url('/fonts/GothamPro.ttf');
 }
 
+.navbar-menu-icon {
+    width: 40px;
+    height: 40px;
+    background: url(/images/menu.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.cart-icon {
+    @extend .navbar-menu-icon;
+    background: url('/images/cart.png')  no-repeat;
+}
+
 body {
     font-family: GothamPro;
 }
@@ -11,6 +23,10 @@ nav {
     height: 100px;
     font-size: 14px;
     line-height: 1.2;
+    &.navbar {
+        position: absolute;
+    }
+   
     .container-fluid {
         padding-left: 10px;
         padding-right: 10px;
@@ -104,7 +120,7 @@ nav {
     
 
     .right-col {
-
+       
         background: url('/images/lines.png') no-repeat;
         background-position: 50% 165px;
 
@@ -279,6 +295,7 @@ nav {
     }
 
     .left-col {
+        
         font-size: 16px;
         
         h2 {
@@ -330,6 +347,7 @@ nav {
     }
 
     .right-col {
+        margin-top: 220px;
         font-size: 16px;
 
         h2 {
@@ -627,7 +645,13 @@ nav {
 }
 
 .bg9 {
-    height: 635px;
+    height: 620px;
+
+    .map {
+        position: absolute;
+        height: 615px;
+        top:0;
+    }
 
     address {
         color: white;
@@ -657,6 +681,7 @@ nav {
     }
 
     article {
+        z-index: 10;
         background-clip: content-box;
         max-width: 470px;
         background-image: linear-gradient( -230deg, rgb(80,56,200) 0%, rgb(3,132,229) 100%);
@@ -735,3 +760,9 @@ nav {
 .content-row{
     max-width: 1180px;
 }
+
+@import '_media';
+@import '_media-sm';
+@import '_media-md';
+@import '_media-lg';
+@import '_media-xl';
