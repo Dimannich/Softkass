@@ -30,6 +30,7 @@ nav {
 }
 
 .bg1 {
+    height: 950px;
     background: url('/images/bg1.png') no-repeat;
 
     .header {
@@ -39,6 +40,9 @@ nav {
             font-size: 48px;
             font-weight: bold;
         }
+    }
+    .header-space {
+        padding-top: 220px;
     }
 
     .info {
@@ -312,6 +316,19 @@ nav {
         }
     }
 
+    p {
+        color: black;
+    }
+
+    .pl-70 {
+        padding-left: 70px;
+    }
+
+    .counter {
+        font-size: 40px; 
+        padding-left: 70px;
+    }
+
     .right-col {
         font-size: 16px;
 
@@ -345,6 +362,9 @@ nav {
     background: #f5f5f5;
     h1 {
         font-size: 48px;
+    }
+    h2 {
+        font-size: 30px;
     }
 
     .headers {
@@ -431,6 +451,7 @@ nav {
 .bg6 {
     height: 1175px;
     background-color: #211b3d;
+    color: white;
     .headers {
         height: 230px;
         color: white;
@@ -445,11 +466,14 @@ nav {
     h1 {
         font-size: 48px;
     }
+    
 
     .form-bg {
         max-width: 820px;
         background: url('/images/form-bg.png') no-repeat;
-      
+        color: black;
+        height: 710px;
+
         &::after {
             content: '';
             background: url('/images/contacts.png') no-repeat;
@@ -460,9 +484,38 @@ nav {
             background-size: 100.6%;
             z-index: -1;
         }
+        input {
+            border-color: #83d0f5;
+            border-radius: 0;
+        }
+
+        
+
+        label {
+            font-size: 13px;
+        }
+
+        form {
+            max-width:635px;
+        }
+
+        .left {
+            padding-left: 20px;
+        }
+        .right {
+            padding-right: 20px;
+        }
+        .both {
+            padding: 0 20px;
+        }
 
         .form-headers{
             color:white;
+            margin-bottom: 30px;
+
+            h1 {
+                padding-top: 45px;
+            }
 
             h2 {
                 font-size: 18px;
@@ -470,8 +523,16 @@ nav {
             }
         }
 
+        .btn-orange {
+            margin-bottom: 80px;
+        }
+
         textarea  {
             resize: none;
+            @extend input;
+        }
+        select {
+            @extend input;
         }
     }
 }
@@ -503,6 +564,10 @@ nav {
         background: url('/images/girl.png') no-repeat;
         height: 100%;
         background-position: 90% 35%;
+    }
+
+    .list-block {
+        padding-left: 80px;
     }
     
     .list {
@@ -594,6 +659,7 @@ nav {
     article {
         background-clip: content-box;
         max-width: 470px;
+        background-image: linear-gradient( -230deg, rgb(80,56,200) 0%, rgb(3,132,229) 100%);
 
         h1 {
             height: 100px;
@@ -646,6 +712,7 @@ nav {
     .link {
         font-size: 14px;
         color: #65a4c5;
+        margin-bottom: 33px;
         text-decoration: underline;
     }
 }
@@ -658,6 +725,10 @@ nav {
         font-size: 24px;
         color: white;
         background-image: linear-gradient(-57deg, #e57100 0%, #fba941 100%);
+
+        &:hover {
+            text-decoration: none;
+        }
     }
 }
 
