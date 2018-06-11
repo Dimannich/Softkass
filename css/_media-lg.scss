@@ -10,6 +10,14 @@
         }
     }
 
+    .bg1 {
+        .header-space {
+            background: url('/images/kassa.png') no-repeat;
+            background-position: 95% 45%;
+            background-size: 400px;
+        }
+    }
+
     .bg4 {
         .left-card {
             max-width: unset;
@@ -62,6 +70,24 @@
         }
         
     } 
+
+    .bg4 {
+        .right-col {
+            margin-top: 220px;
+            .right-card {
+                p {
+                    //max-width: unset;
+                }
+            }
+        }
+        .left-col {
+            .left-card {
+                p {
+                    //max-width: unset;
+                }
+            }
+        }
+    }
 
     .bg8 {
         .logo {

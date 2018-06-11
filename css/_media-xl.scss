@@ -52,6 +52,12 @@
         }
     
     }
+    .bg1 {
+        .header-space {
+            background: url('/images/kassa.png') no-repeat;
+            background-position: 85% 75%;
+        }
+    }
     
     .bg1 {
         height: 950px;
@@ -292,9 +298,9 @@
         background: url('/images/bg4.png') no-repeat;
         color: white;
         h1 {
-            height: 205px;
+            height: 225px;
             font-size: 48px;
-            padding-top: 100px;
+            padding-top: 80px;
             span {
                 font-size: 60px;
             }
@@ -312,7 +318,7 @@
                 color: #00b9ee;
             }
             p {
-                max-width: 440px;
+                max-width: 430px !important;
                 line-height: 30px;
                 margin-bottom: 30px;
                 span {
@@ -334,6 +340,7 @@
                 font-size: 16px;
                 line-height: 30px;
                 padding-right: 0px;
+                max-width: unset;
             }
             .left-card {
                 height: 550px;
@@ -366,7 +373,7 @@
             }
     
             p {
-                max-width: 440px;
+                max-width: 440px !important;
                 line-height: 30px;
                 margin-bottom: 50px;
             }
@@ -374,7 +381,7 @@
             .info {
                 font-size: 24px;
                 line-height: 36px;
-                max-width: 470px;
+                max-width: 470px !important;
             }
     
             .right-card {

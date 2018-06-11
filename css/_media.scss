@@ -151,6 +151,11 @@
                 width: 320px;
                 height: 48px;
                 padding-left: 30px !important;
+                -ms-flex-preferred-size: 0;
+                flex-basis: 0;
+                -ms-flex-positive: 1;
+                flex-grow: 1;
+                max-width: 100%;
 
             }
 
@@ -186,6 +191,11 @@
             .btn-orange {
                 width: 330px;
                 height: 48px;
+                -ms-flex-preferred-size: 0;
+                flex-basis: 0;
+                -ms-flex-positive: 1;
+                flex-grow: 1;
+                max-width: 100%;
             }
 
             .pl-70 {
@@ -339,13 +349,15 @@
             padding: unset;
 
             li {
-                margin-left: unset !important;
+                //margin-left: unset !important;
                 text-align: center;
                 line-height: 30px;
                 margin-bottom: 150px;
             }
 
             .label {
+                margin-left: auto !important;
+                margin-right: auto;
                 &::before {
                     width: 65px;
                     left: 50%;

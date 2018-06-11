@@ -6,6 +6,10 @@
         }
     }
 
+    nav.navbar {
+        position: absolute;
+    }
+
     
     .bg6 {
         .form-bg::after {
@@ -68,6 +72,8 @@
         // }
         h1 {
             margin-top: unset;
+            height: 260px;
+            font-size: 48px;
             margin-bottom: unset;
         }
 
@@ -81,10 +87,9 @@
         }
 
         .left-col {
-            
-            height: 370px;
-            background-size: 120% 120%;
-            background-position-x: -30px;
+            height: unset;    
+            background-size: cover;
+            background-position: center;
             margin-bottom: 60px;
         }
 
@@ -109,6 +114,8 @@
             //margin: 40px 0;
             //line-height: 48px;
             margin:0;
+            height: 300px;
+            font-size: 48px;
         }
 
         // .content-row {
@@ -145,6 +152,14 @@
         //         font-size: 36px;
         //     }
         // }
+
+        h1 {
+            height: unset;
+            font-size: 48px;
+            padding-top: 100px;
+            line-height: unset;
+            margin-bottom: unset;
+        }
         .left-col {
 
             .counter {
@@ -153,6 +168,11 @@
             }
             .pl-70 {
                 padding-left: 70px;
+            }
+
+            p {
+                //font-size: 14px;
+                //max-width: 330px;
             }
         }
 
@@ -209,11 +229,26 @@
             //     font-size: 14px;
             //     max-width: 330px;
             // }
+            .counter {
+                font-size: 40px;
+                padding-left: 70px;
+            }
+            .pl-70 {
+                padding-left: 70px;
+            }
 
             .right-card {
                 max-width: 530px;
                 margin: 0 auto;
                 margin-top: 40px;
+
+                p {
+                    //font-size: 14px;
+                    //max-width: 330px;
+                }
+                .info {
+                    max-width: 470px;
+                }
             }
 
             // .btn-orange {
@@ -272,9 +307,13 @@
         }
 
         .headers {
-           
+            padding-top: 150px !important;
+            //height: 300px;
+           margin-top: unset;
             h1 {
                 font-size: 48px;
+                margin-bottom: unset;
+                line-height: unset;
             }
             h2 {
                 font-size: 30px;
@@ -384,8 +423,17 @@
 
     .bg9 {
         .map {
-            height: 628px !important;
+            height: 618px !important;
             position: absolute !important;
+        }
+    }
+
+    .bg10 {
+        h1 {
+            font-size: 48px;
+        }
+        p {
+            font-size: 18px;
         }
     }
 

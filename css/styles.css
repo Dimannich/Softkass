@@ -874,6 +874,11 @@ nav .phone {
     width: 320px;
     height: 48px;
     padding-left: 30px !important;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
   }
   .bg4 .left-col .pl-70 {
     padding-left: 40px;
@@ -902,6 +907,11 @@ nav .phone {
   .bg4 .right-col .btn-orange {
     width: 330px;
     height: 48px;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
   }
   .bg4 .right-col .pl-70 {
     padding-left: 40px;
@@ -1030,10 +1040,13 @@ nav .phone {
     padding: unset;
   }
   .bg7 .list li {
-    margin-left: unset !important;
     text-align: center;
     line-height: 30px;
     margin-bottom: 150px;
+  }
+  .bg7 .list .label {
+    margin-left: auto !important;
+    margin-right: auto;
   }
   .bg7 .list .label::before {
     width: 65px;
@@ -1207,7 +1220,6 @@ nav .phone {
   }
   .bg4 .left-col p {
     font-size: 14px;
-    max-width: 330px;
   }
   .bg4 .left-col .left-card {
     background: url("/images/bg4-left-col-sm.png") no-repeat;
@@ -1235,7 +1247,6 @@ nav .phone {
   }
   .bg4 .right-col p {
     font-size: 14px;
-    max-width: 330px;
   }
   .bg4 .right-col .right-card {
     background: url("/images/bg4-left-col-sm.png") no-repeat;
@@ -1249,9 +1260,6 @@ nav .phone {
   }
   .bg4 .right-col .pl-70 {
     padding-left: 40px;
-  }
-  .bg4 .right-col .info {
-    max-width: 300px;
   }
   .bg4 .tip {
     font-size: 12px;
@@ -1384,6 +1392,9 @@ nav .phone {
   nav .phone {
     min-width: 310px;
   }
+  nav.navbar {
+    position: absolute;
+  }
   .bg6 .form-bg::after {
     display: none;
   }
@@ -1423,6 +1434,8 @@ nav .phone {
   }
   .bg2 h1 {
     margin-top: unset;
+    height: 260px;
+    font-size: 48px;
     margin-bottom: unset;
   }
   .bg2 .right-col {
@@ -1433,9 +1446,9 @@ nav .phone {
     font-size: 30px;
   }
   .bg2 .left-col {
-    height: 370px;
-    background-size: 120% 120%;
-    background-position-x: -30px;
+    height: unset;
+    background-size: cover;
+    background-position: center;
     margin-bottom: 60px;
   }
   .bg2 .btn-orange {
@@ -1451,6 +1464,8 @@ nav .phone {
   .bg3 h1 {
     text-align: center;
     margin: 0;
+    height: 300px;
+    font-size: 48px;
   }
   .bg3 .content-row .col-12 {
     padding: 0 15px;
@@ -1463,6 +1478,13 @@ nav .phone {
   }
   .bg4 .line-bg {
     background: unset;
+  }
+  .bg4 h1 {
+    height: unset;
+    font-size: 48px;
+    padding-top: 100px;
+    line-height: unset;
+    margin-bottom: unset;
   }
   .bg4 .left-col .counter {
     font-size: 40px;
@@ -1479,10 +1501,20 @@ nav .phone {
   .bg4 .right-col {
     margin-top: 0px;
   }
+  .bg4 .right-col .counter {
+    font-size: 40px;
+    padding-left: 70px;
+  }
+  .bg4 .right-col .pl-70 {
+    padding-left: 70px;
+  }
   .bg4 .right-col .right-card {
     max-width: 530px;
     margin: 0 auto;
     margin-top: 40px;
+  }
+  .bg4 .right-col .right-card .info {
+    max-width: 470px;
   }
   .bg4 .tip {
     font-size: 12px;
@@ -1496,8 +1528,14 @@ nav .phone {
   .bg5 .content-row .col-12 {
     padding: 0 15px;
   }
+  .bg5 .headers {
+    padding-top: 150px !important;
+    margin-top: unset;
+  }
   .bg5 .headers h1 {
     font-size: 48px;
+    margin-bottom: unset;
+    line-height: unset;
   }
   .bg5 .headers h2 {
     font-size: 30px;
@@ -1577,8 +1615,14 @@ nav .phone {
     margin-bottom: 5px;
   }
   .bg9 .map {
-    height: 628px !important;
+    height: 618px !important;
     position: absolute !important;
+  }
+  .bg10 h1 {
+    font-size: 48px;
+  }
+  .bg10 p {
+    font-size: 18px;
   }
 }
 
@@ -1588,6 +1632,11 @@ nav .phone {
   }
   nav .phone {
     min-width: 310px;
+  }
+  .bg1 .header-space {
+    background: url("/images/kassa.png") no-repeat;
+    background-position: 95% 45%;
+    background-size: 400px;
   }
   .bg4 .left-card {
     max-width: unset;
@@ -1628,6 +1677,9 @@ nav .phone {
   }
   .bg6 .form-bg form {
     background: #eef5f7;
+  }
+  .bg4 .right-col {
+    margin-top: 220px;
   }
   .bg8 .logo {
     margin: 0;
@@ -1681,6 +1733,10 @@ nav .phone {
   nav .phone {
     font-size: 30px;
     line-height: unset;
+  }
+  .bg1 .header-space {
+    background: url("/images/kassa.png") no-repeat;
+    background-position: 85% 75%;
   }
   .bg1 {
     height: 950px;
@@ -1875,9 +1931,9 @@ nav .phone {
     color: white;
   }
   .bg4 h1 {
-    height: 205px;
+    height: 225px;
     font-size: 48px;
-    padding-top: 100px;
+    padding-top: 80px;
   }
   .bg4 h1 span {
     font-size: 60px;
@@ -1894,7 +1950,7 @@ nav .phone {
     color: #00b9ee;
   }
   .bg4 .left-col p {
-    max-width: 440px;
+    max-width: 430px !important;
     line-height: 30px;
     margin-bottom: 30px;
   }
@@ -1915,6 +1971,7 @@ nav .phone {
     font-size: 16px;
     line-height: 30px;
     padding-right: 0px;
+    max-width: unset;
   }
   .bg4 .left-col .left-card {
     height: 550px;
@@ -1941,14 +1998,14 @@ nav .phone {
     color: #00b9ee;
   }
   .bg4 .right-col p {
-    max-width: 440px;
+    max-width: 440px !important;
     line-height: 30px;
     margin-bottom: 50px;
   }
   .bg4 .right-col .info {
     font-size: 24px;
     line-height: 36px;
-    max-width: 470px;
+    max-width: 470px !important;
   }
   .bg4 .right-col .right-card {
     height: 540px;
