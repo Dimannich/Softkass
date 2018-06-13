@@ -709,6 +709,53 @@ nav .phone {
   font-size: 18px;
 }
 
+.catalog {
+  background: #f5f5f5;
+}
+
+.catalog h1 {
+  min-height: 160px;
+  font-size: 48px;
+}
+
+.catalog .category {
+  background: white;
+  margin-bottom: 45px;
+  background-clip: content-box;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.catalog .category .name {
+  font-size: 24px;
+  margin-top: 15px;
+  margin-bottom: 45px;
+}
+
+.catalog .category .category-link {
+  color: black;
+  text-decoration: none;
+}
+
+.catalog .btn-orange {
+  max-width: 220px;
+  margin: 0 auto 40px auto;
+  height: 48px;
+  padding: 0;
+}
+
+.catalog .btn-orange .link {
+  font-size: 18px;
+}
+
+.catalog .btn-return {
+  width: 300px;
+  height: 48px;
+  max-width: 300px;
+  margin-bottom: 125px;
+  margin-top: 40px;
+}
+
 .footer {
   height: 135px;
   background: #142a40;
@@ -1090,9 +1137,25 @@ nav .phone {
   .bg9 {
     height: unset;
   }
+  .bg9 article h1 {
+    font-size: 30px;
+  }
+  .bg9 article address .phone {
+    font-size: 30px;
+  }
   .bg9 .map {
     position: unset;
     height: 335px;
+  }
+  .catalog h1 {
+    min-height: 130px;
+    font-size: 30px;
+  }
+  .catalog .category img {
+    width: 37vw;
+  }
+  .catalog .category .name {
+    font-size: 18px;
   }
   .footer {
     height: 260px;

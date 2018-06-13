@@ -415,9 +415,39 @@
     .bg9 {
         height: unset;
 
+        article {
+            h1 {
+                font-size: 30px;
+            }
+
+            address {
+                .phone {
+                    font-size: 30px;
+                }
+            }
+        }
+
+        
+
         .map {
             position: unset;
             height: 335px;
+        }
+    }
+    
+    .catalog {
+        h1 {
+            min-height: 130px;
+            font-size: 30px;
+        }
+        .category {
+
+         img {
+             width: 37vw;
+         }
+            .name {
+                font-size: 18px;
+            }
         }
     }
 
