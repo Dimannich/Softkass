@@ -779,6 +779,31 @@ nav .phone {
   text-decoration: underline;
 }
 
+.arrow-bottom, .arrow-top {
+  background: url("/images/arrow-bottom.png") no-repeat;
+  background-position: center;
+  width: 20px;
+  height: 20px;
+}
+
+.arrow-top {
+  background: url("/images/arrow-top.png") no-repeat;
+  background-position: center;
+}
+
+#desc, #asc {
+  cursor: pointer;
+}
+
+.category-items .sort {
+  font-size: 14px;
+}
+
+ol.breadcrumb {
+  background: unset !important;
+  padding-left: 10px;
+}
+
 .btn-orange {
   width: 340px;
   height: 60px;
