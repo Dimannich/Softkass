@@ -12,7 +12,7 @@
 
     .bg1 {
         .header-space {
-            background: url('/images/kassa.png') no-repeat;
+            background: url('../images/kassa.png') no-repeat;
             background-position: 95% 45%;
             background-size: 400px;
         }
@@ -53,7 +53,7 @@
 
                 &::after {
                     content: '';
-                    background: url(/images/form-tail.png) no-repeat;
+                    background: url(../images/form-tail.png) no-repeat;
                     width: 100px;
                     height: 40px;
                     position: absolute;

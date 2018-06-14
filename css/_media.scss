@@ -142,7 +142,7 @@
             }
 
             .left-card {
-                background: url('/images/bg4-left-col-sm.png') no-repeat;
+                background: url('../images/bg4-left-col-sm.png') no-repeat;
                 background-size: 100% 500px;
                 background-position: top center;
             }
@@ -182,7 +182,7 @@
             }
 
             .right-card {
-                background: url('/images/bg4-left-col-sm.png') no-repeat;
+                background: url('../images/bg4-left-col-sm.png') no-repeat;
                 background-size: 100% 450px;
                 background-position: top center;
                 height: 500px;
@@ -283,7 +283,7 @@
 
                     &::after {
                         content: '';
-                        background: url(/images/form-tail.png) no-repeat;
+                        background: url(../images/form-tail.png) no-repeat;
                         width: 100px;
                         height: 40px;
                         position: absolute;
