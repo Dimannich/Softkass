@@ -465,4 +465,53 @@
     .category-items {
         margin-bottom: 130px !important;
     }
+
+    .same-products {
+        h1 {
+            padding-left: 15px;
+        }
+        .category {
+            padding-left:30px;
+            padding-right: 30px;
+        }
+    }
+
+    .description {
+        nav {
+            .nav-item {
+                font-size: 14px;
+            }
+        }
+
+        .desc-item {
+            .text-block {
+                font-size: 12px;
+                max-width: 270px;
+            }
+        }
+    }
+
+    .category-product {
+        margin-bottom: 60px;
+        .price {
+            span {
+                font-size: 30px;
+            }
+        }
+
+        
+
+        .text-block {
+            font-size: 12px;
+            max-width: 300px;
+        }
+
+        .product-img {
+            .img-fluid {
+                max-width: 235px;
+                max-height: 235px;
+            }
+            
+        }
+    }
 }
