@@ -558,6 +558,7 @@ nav .phone {
   background: url("../images/bg2.png") no-repeat;
   background-size: 100% 920px;
   background-position-y: 100px;
+  background-color: white !important;
 }
 
 .bg7 .headers {
@@ -816,6 +817,10 @@ nav .phone {
   font-size: 14px;
 }
 
+.categories a:hover {
+  text-decoration: none;
+}
+
 .breadcrumb-nav {
   height: unset;
 }
@@ -936,6 +941,155 @@ ol.breadcrumb {
 
 .content-row {
   max-width: 1180px;
+}
+
+.description nav {
+  max-height: 48px;
+}
+
+.description nav .nav-item {
+  max-width: 250px;
+  height: 42px;
+  font-size: 18px;
+  color: black;
+  background: #e8e8e8;
+  border-color: transparent;
+  margin-bottom: 0;
+  padding-top: 15px;
+}
+
+.description nav .nav-item.active {
+  background: #00b9ee;
+  color: white;
+  border-color: transparent;
+}
+
+.description nav .nav-tabs {
+  border-bottom: 6px solid #00b9ee;
+}
+
+.description .tab-content {
+  background: white;
+  background-clip: content-box;
+  margin-bottom: 70px;
+}
+
+.description .tab-content .desc-item {
+  max-width: 515px;
+  margin-bottom: 28px;
+}
+
+.description .tab-content .tab-pane {
+  display: none;
+}
+
+.description .tab-content .tab-pane.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.description .tab-content .block-name {
+  font-size: 24px;
+  margin-top: 24px;
+  margin-bottom: 35px;
+}
+
+.description .tab-content .text-block {
+  font-size: 13px;
+  line-height: 30px;
+}
+
+.same-products {
+  margin-bottom: 150px;
+}
+
+.same-products h1 {
+  margin-bottom: 60px;
+  font-size: 30px;
+  line-height: 36px;
+  padding-left: 60px;
+}
+
+.same-products .category {
+  background: white;
+  margin-bottom: 45px;
+  background-clip: content-box;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.same-products .category .name {
+  font-size: 24px;
+  margin-top: 15px;
+  margin-bottom: 45px;
+}
+
+.same-products .category .category-link {
+  color: black;
+  text-decoration: none;
+}
+
+.same-products .btn-orange {
+  max-width: 220px;
+  margin: 0 auto 40px auto;
+  height: 48px;
+  padding: 0;
+}
+
+.same-products .btn-orange .link {
+  font-size: 18px;
+}
+
+.category-product {
+  margin-bottom: 110px;
+}
+
+.category-product h1 {
+  font-size: 30px;
+}
+
+.category-product hr {
+  margin-bottom: 2.5rem;
+  margin-top: .8rem;
+  background-color: #00b9ee;
+}
+
+.category-product .text-block {
+  font-size: 14px;
+  line-height: 30px;
+  margin-bottom: 35px;
+}
+
+.category-product .price {
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+
+.category-product .price span {
+  font-size: 48px;
+}
+
+.category-product .purchase-btn {
+  max-width: 240px;
+  height: 48px;
+  margin-bottom: 20px;
+}
+
+.category-product .purchase-btn .link {
+  font-size: 18px;
+  position: relative;
+}
+
+.category-product .purchase-btn .link::after {
+  margin-left: 40px;
+  content: '';
+  width: 40px;
+  height: 40px;
+  background: url("/images/cart-icon.png") no-repeat;
+  background-position: center;
+  position: absolute;
+  right: 20px;
 }
 
 @media (max-width: 575px) {
@@ -1309,6 +1463,34 @@ ol.breadcrumb {
   }
   .category-items {
     margin-bottom: 130px !important;
+  }
+  .same-products h1 {
+    padding-left: 15px;
+  }
+  .same-products .category {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .description nav .nav-item {
+    font-size: 14px;
+  }
+  .description .desc-item .text-block {
+    font-size: 12px;
+    max-width: 270px;
+  }
+  .category-product {
+    margin-bottom: 60px;
+  }
+  .category-product .price span {
+    font-size: 30px;
+  }
+  .category-product .text-block {
+    font-size: 12px;
+    max-width: 300px;
+  }
+  .category-product .product-img .img-fluid {
+    max-width: 235px;
+    max-height: 235px;
   }
 }
 
@@ -2326,7 +2508,7 @@ ol.breadcrumb {
     position: absolute;
     bottom: 9px;
     background-size: 100.6%;
-    z-index: -1;
+    z-index: 1;
   }
   .bg6 .form-bg input, .bg6 .form-bg textarea, .bg6 .form-bg select {
     border-color: #83d0f5;

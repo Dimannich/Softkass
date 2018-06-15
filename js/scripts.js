@@ -6,3 +6,9 @@
           zoom: 15
         });
     }
+
+
+        if($('main').find('nav').hasClass('breadcrumb-nav')) {
+            $('main').css('background', '#f5f5f5');
+        } 
+   
