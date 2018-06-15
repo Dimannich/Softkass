@@ -1,6 +1,6 @@
 @font-face {
     font-family: "GothamPro";
-    src: url('/fonts/GothamPro.ttf');
+    src: url('../fonts/GothamPro.ttf');
 }
 
 .navbar-menu-icon {
@@ -1103,7 +1103,7 @@ ol.breadcrumb {
                 content: '';
                 width: 40px;
                 height: 40px;
-                background: url('/images/cart-icon.png') no-repeat;
+                background: url('../images/cart-icon.png') no-repeat;
                 background-position: center;
                 position: absolute;
                 right: 20px;
