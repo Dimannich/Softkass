@@ -1087,6 +1087,7 @@ ol.breadcrumb {
 .category-product .price {
   font-size: 30px;
   margin-bottom: 60px;
+  line-height: 50px;
 }
 
 .category-product .price span {
@@ -1395,6 +1396,27 @@ ol.breadcrumb {
   background: url("../images/label-test.png") no-repeat;
   background-size: contain;
   background-position: top center;
+}
+
+.strikethrough {
+  position: relative;
+  margin-bottom: -5px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.strikethrough .price {
+  font-size: 24px !important;
+}
+
+.strikethrough:before {
+  border-bottom: 2px solid red;
+  position: absolute;
+  content: "";
+  width: 110%;
+  left: -8px;
+  top: 0%;
+  height: 52%;
 }
 
 @media (max-width: 575px) {
@@ -1794,6 +1816,9 @@ ol.breadcrumb {
   }
   .category-product {
     margin-bottom: 60px;
+  }
+  .category-product .price {
+    line-height: unset;
   }
   .category-product .price span {
     font-size: 30px;

@@ -1112,6 +1112,7 @@ ol.breadcrumb {
     .price {
         font-size: 30px;
         margin-bottom: 60px;
+        line-height: 50px;
         span {
             font-size: 48px;
         }
@@ -1434,6 +1435,29 @@ ol.breadcrumb {
     background-size: contain;
     background-position: top center;
 }
+
+.strikethrough{
+    position: relative;
+    margin-bottom: -5px;
+    font-size: 14px;
+    line-height: 24px;
+    .price {
+        font-size: 24px !important;
+    }
+    &:before {
+        border-bottom: 2px solid red;
+        position: absolute;
+        content: "";
+        width: 110%;
+        left: -8px;
+        top: 0%;
+        height: 52%;
+      }
+    
+}
+
+
+
 
 @import '_media';
 @import '_media-sm';

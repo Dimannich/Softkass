@@ -504,6 +504,7 @@
     .category-product {
         margin-bottom: 60px;
         .price {
+            line-height: unset;
             span {
                 font-size: 30px;
             }
