@@ -57,11 +57,11 @@ nav .phone {
   line-height: unset;
 }
 
-nav button.navbar-toggler {
+nav a.navbar-toggler {
   z-index: 1000;
 }
 
-nav button.navbar-toggler span {
+nav a.navbar-toggler span {
   cursor: pointer;
 }
 
