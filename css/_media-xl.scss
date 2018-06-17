@@ -1,7 +1,7 @@
 @media(min-width: 1200px) {
     .bg7 {
         .list-bg {
-            background: url('../images/girl.png') no-repeat;
+            background: url('/images/girl.png') no-repeat;
             height: 100%;
             background-position: 90% 35%;
         }
@@ -10,7 +10,7 @@
     .navbar-menu-icon {
         width: 40px;
         height: 40px;
-        background: url(../images/menu.png) no-repeat;
+        background: url(/images/menu.png) no-repeat;
         background-size: 100% 100%;
     }
     
@@ -18,7 +18,6 @@
         //@extend .navbar-menu-icon;
         width: 40px;
         height: 40px;
-        background: url(../images/menu.png) no-repeat;
         background-size: 100% 100%;
         background: url('/images/cart.png')  no-repeat;
     }
@@ -41,7 +40,7 @@
         }
     
         .logo {
-            background: url('../images/logo.png') center no-repeat;
+            background: url('/images/logo.png') center no-repeat;
             width: 165px;
             height: 60px;
         }
@@ -54,14 +53,14 @@
     }
     .bg1 {
         .header-space {
-            background: url('../images/kassa.png') no-repeat;
+            background: url('/images/kassa.png') no-repeat;
             background-position: 85% 75%;
         }
     }
     
     .bg1 {
         height: 950px;
-        background: url('../images/bg1.png') no-repeat;
+        background: url('/images/bg1.png') no-repeat;
     
         .header {
             font-size: 30px;
@@ -91,7 +90,7 @@
                 content:'';
                 width: 50px;
                 height: 50px;
-                background: url('../images/top-icon1.png') no-repeat;
+                background: url('/images/top-icon1.png') no-repeat;
                 position: absolute;
                 left:0;
                 top: -10px;
@@ -103,7 +102,7 @@
             height: 50px;
     
             &:after {
-                background: url('../images/certificates.png') no-repeat;
+                background: url('/images/certificates.png') no-repeat;
                 //background-size: cover;
                 width: 110px;
                 height: 100px;
@@ -122,7 +121,7 @@
         }
     }
     .bg2 {
-        background: url('../images/bg2.png') no-repeat;
+        background: url('/images/bg2.png') no-repeat;
         background-size: 100% 905px;
         height: 905px;
     
@@ -136,7 +135,7 @@
         .right-col {
             
     
-            background: url('../images/lines.png') no-repeat;
+            background: url('/images/lines.png') no-repeat;
             background-position: 50% 165px;
     
             .text-block {
@@ -144,7 +143,7 @@
             }
     
             .header {
-                background: url('../images/bg2-header.png') no-repeat;
+                background: url('/images/bg2-header.png') no-repeat;
                 background-position: 50%;
                 height: 60px;
                 color: white;
@@ -155,7 +154,7 @@
                 margin-top: 80px;
     
                 .label {
-                    background: url('../images/counterbg.png') no-repeat;
+                    background: url('/images/counterbg.png') no-repeat;
                     width: 65px;
                     height: 60px;
                     color: white;
@@ -170,7 +169,7 @@
         }
     
         .left-col {
-            background: url('../images/bg2-left-col.png') no-repeat;
+            background: url('/images/bg2-left-col.png') no-repeat;
             color: white;
             height: 465px;
             max-width: 420px;
@@ -194,7 +193,7 @@
             }
     
             .fn {
-                background: url('../images/FN.png') 0 0 no-repeat;
+                background: url('/images/FN.png') 0 0 no-repeat;
                 width: 300px;
                 height: 220px;
                 background-position: center;
@@ -251,7 +250,7 @@
                     content: '';
                     width: 40px;
                     height: 40px;
-                    background: url('../images/cart-icon.png') no-repeat;
+                    background: url('/images/cart-icon.png') no-repeat;
                     background-position: center;
                     position: absolute;
                     right: 20px;
@@ -295,7 +294,7 @@
     .bg4 {
         
         height: 920px;
-        background: url('../images/bg4.png') no-repeat;
+        background: url('/images/bg4.png') no-repeat;
         color: white;
         h1 {
             height: 225px;
@@ -306,7 +305,7 @@
             }
         }
         .line-bg {
-            background: url('../images/bg4-line.png') no-repeat;
+            background: url('/images/bg4-line.png') no-repeat;
             background-position: 50% 40%;
         }
     
@@ -344,7 +343,7 @@
             }
             .left-card {
                 height: 550px;
-                background: url('../images/bg4-left-col.png') no-repeat;
+                background: url('/images/bg4-left-col.png') no-repeat;
                 background-size: 540px 550px;
                 margin: unset;
             }
@@ -386,7 +385,7 @@
     
             .right-card {
                 height: 540px;
-                background: url('../images/bg4-right-col.png') no-repeat;
+                background: url('/images/bg4-right-col.png') no-repeat;
                 background-size: 560px 540px;
             }
         }
@@ -442,7 +441,7 @@
                     content: '';
                     width: 40px;
                     height: 40px;
-                    background: url('../images/cart-icon.png') no-repeat;
+                    background: url('/images/cart-icon.png') no-repeat;
                     background-position: center;
                     position: absolute;
                     right: 20px;
@@ -505,13 +504,13 @@
     
         .form-bg {
             max-width: 820px;
-            background: url('../images/form-bg.png') no-repeat;
+            background: url('/images/form-bg.png') no-repeat;
             color: black;
             height: 710px;
     
             &::after {
                 content: '';
-                background: url('../images/contacts.png') no-repeat;
+                background: url('/images/contacts.png') no-repeat;
                 height: 50px;
                 width: 900px;
                 position: absolute;
@@ -582,7 +581,7 @@
     
     .bg7 {
         height:920px;
-        background: url('../images/bg2.png') no-repeat;
+        background: url('/images/bg2.png') no-repeat;
         //background-image: url('/images/bg2.png');
         background-size: 100% 920px;
         // background-position: 0, 50%;
@@ -604,7 +603,7 @@
         }
     
         .list-bg {
-            background: url('../images/girl.png') no-repeat;
+            background: url('/images/girl.png') no-repeat;
             height: 100%;
             background-position: 90% 35%;
         }
@@ -640,7 +639,7 @@
         .label {
             &:before {
                 content:'';
-                background: url('../images/label.png') no-repeat;
+                background: url('/images/label.png') no-repeat;
                 width: 85px; 
                 height: 85px;
                 position: absolute;
