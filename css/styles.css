@@ -70,7 +70,7 @@ nav a.navbar-toggler span {
 }
 
 .bg1 {
-  height: 950px;
+  min-height: 950px;
   background: url("../images/bg1.png") no-repeat;
 }
 
@@ -136,7 +136,7 @@ nav a.navbar-toggler span {
 .bg2 {
   background: url("../images/bg2.png") no-repeat;
   background-size: 100% 905px;
-  height: 905px;
+  min-height: 905px;
 }
 
 .bg2 h1 {
@@ -295,7 +295,7 @@ nav a.navbar-toggler span {
 }
 
 .bg4 {
-  height: 920px;
+  min-height: 920px;
   background: url("../images/bg4.png") no-repeat;
   color: white;
 }
@@ -400,7 +400,7 @@ nav a.navbar-toggler span {
 }
 
 .bg5 {
-  height: 1080px;
+  min-height: 1080px;
   background: #f5f5f5;
 }
 
@@ -493,7 +493,7 @@ nav a.navbar-toggler span {
 }
 
 .bg6 {
-  height: 1175px;
+  min-height: 1175px;
   background-color: #211b3d;
   color: white;
 }
@@ -578,7 +578,7 @@ nav a.navbar-toggler span {
 }
 
 .bg7 {
-  height: 920px;
+  min-height: 920px;
   background: url("../images/bg2.png") no-repeat;
   background-size: 100% 920px;
   background-position-y: 100px;
@@ -643,7 +643,7 @@ nav a.navbar-toggler span {
 }
 
 .bg8 {
-  height: 615px;
+  min-height: 615px;
   background: #f5f5f5;
 }
 
@@ -663,7 +663,7 @@ nav a.navbar-toggler span {
 }
 
 .bg9 {
-  height: 620px;
+  min-height: 620px;
 }
 
 .bg9 .map {
@@ -709,7 +709,7 @@ nav a.navbar-toggler span {
 }
 
 .bg10 {
-  height: 365px;
+  min-height: 365px;
 }
 
 .bg10 h1 {
@@ -1387,6 +1387,16 @@ ol.breadcrumb {
   color: black;
 }
 
+.sticker {
+  top: 0;
+  right: 15px;
+  width: 130px;
+  height: 130px;
+  background: url("../images/label-test.png") no-repeat;
+  background-size: contain;
+  background-position: top center;
+}
+
 @media (max-width: 575px) {
   nav {
     position: unset !important;
@@ -1400,6 +1410,7 @@ ol.breadcrumb {
   }
   .bg1 {
     height: unset;
+    min-height: unset;
   }
   .bg1 .header-space {
     padding: 0;
@@ -1427,6 +1438,7 @@ ol.breadcrumb {
   }
   .bg2 {
     height: unset;
+    min-height: unset;
   }
   .bg2 h1 {
     font-size: 30px;
@@ -1457,6 +1469,7 @@ ol.breadcrumb {
   }
   .bg3 {
     height: unset;
+    min-height: unset;
   }
   .bg3 h1 {
     font-size: 30px !important;
@@ -1473,6 +1486,7 @@ ol.breadcrumb {
   }
   .bg4 {
     height: unset;
+    min-height: unset;
     background-image: -moz-linear-gradient(119deg, #c55b93 0%, #302985 100%);
     background-image: -webkit-linear-gradient(119deg, #c55b93 0%, #302985 100%);
     background-image: -ms-linear-gradient(119deg, #c55b93 0%, #302985 100%);
@@ -1563,6 +1577,7 @@ ol.breadcrumb {
   }
   .bg5 {
     height: unset;
+    min-height: unset;
   }
   .bg5 .headers {
     height: unset;
@@ -1586,6 +1601,7 @@ ol.breadcrumb {
   }
   .bg6 {
     height: unset;
+    min-height: unset;
   }
   .bg6 .form-bg::after {
     display: none;
@@ -1650,6 +1666,7 @@ ol.breadcrumb {
   }
   .bg7 {
     height: unset;
+    min-height: unset;
     background: unset;
   }
   .bg7 .content-row {
@@ -1695,6 +1712,7 @@ ol.breadcrumb {
   }
   .bg8 {
     height: unset;
+    min-height: unset;
   }
   .bg8 h1 {
     height: 165px;
@@ -1725,6 +1743,7 @@ ol.breadcrumb {
   }
   .bg9 {
     height: unset;
+    min-height: unset;
   }
   .bg9 article h1 {
     font-size: 30px;
@@ -1917,6 +1936,13 @@ ol.breadcrumb {
   .cart #finish .return-block {
     margin-bottom: 320px;
   }
+  .sticker {
+    width: 110px;
+    height: 110px;
+    background-size: contain;
+    background-position: top center;
+    right: 0px;
+  }
 }
 
 @media (min-width: 576px) {
@@ -1935,6 +1961,7 @@ ol.breadcrumb {
   }
   .bg1 {
     height: unset;
+    min-height: unset;
   }
   .bg1 .header-space {
     padding: 0;
@@ -1962,6 +1989,7 @@ ol.breadcrumb {
   }
   .bg2 {
     height: unset;
+    min-height: unset;
   }
   .bg2 h1 {
     font-size: 30px;
@@ -1991,6 +2019,7 @@ ol.breadcrumb {
   }
   .bg3 {
     height: unset;
+    min-height: unset;
   }
   .bg3 h1 {
     font-size: 30px;
@@ -2007,6 +2036,7 @@ ol.breadcrumb {
   }
   .bg4 {
     height: unset;
+    min-height: unset;
     background-image: -moz-linear-gradient(119deg, #c55b93 0%, #302985 100%);
     background-image: -webkit-linear-gradient(119deg, #c55b93 0%, #302985 100%);
     background-image: -ms-linear-gradient(119deg, #c55b93 0%, #302985 100%);
@@ -2082,6 +2112,7 @@ ol.breadcrumb {
   }
   .bg5 {
     height: unset;
+    min-height: unset;
   }
   .bg5 .headers {
     height: unset;
@@ -2105,6 +2136,7 @@ ol.breadcrumb {
   }
   .bg6 {
     height: unset;
+    min-height: unset;
   }
   .bg6 .form-bg::after {
     display: none;
@@ -2170,6 +2202,7 @@ ol.breadcrumb {
   }
   .bg8 {
     height: unset;
+    min-height: unset;
   }
   .bg8 .logo {
     margin: 0;
@@ -2194,10 +2227,14 @@ ol.breadcrumb {
   }
   .bg9 {
     height: unset;
+    min-height: unset;
   }
   .bg9 .map {
     position: unset;
     height: 335px;
+  }
+  .sticker {
+    right: 0px;
   }
 }
 
@@ -2219,9 +2256,11 @@ ol.breadcrumb {
   }
   .bg3 {
     height: unset;
+    min-height: unset;
   }
   .bg1 {
     height: unset;
+    min-height: unset;
   }
   .bg1 .header {
     text-align: unset;
@@ -2243,6 +2282,7 @@ ol.breadcrumb {
   }
   .bg2 {
     height: unset;
+    min-height: unset;
     background: unset;
   }
   .bg2 h1 {
@@ -2273,6 +2313,7 @@ ol.breadcrumb {
   }
   .bg3 {
     height: unset;
+    min-height: unset;
   }
   .bg3 h1 {
     text-align: center;
@@ -2285,6 +2326,7 @@ ol.breadcrumb {
   }
   .bg4 {
     height: unset;
+    min-height: unset;
     background-image: -moz-linear-gradient(119deg, #c55b93 0%, #302985 100%);
     background-image: -webkit-linear-gradient(119deg, #c55b93 0%, #302985 100%);
     background-image: -ms-linear-gradient(119deg, #c55b93 0%, #302985 100%);
@@ -2337,6 +2379,7 @@ ol.breadcrumb {
   }
   .bg5 {
     height: unset;
+    min-height: unset;
   }
   .bg5 .content-row .col-12 {
     padding: 0 15px;
@@ -2355,6 +2398,7 @@ ol.breadcrumb {
   }
   .bg6 {
     height: unset;
+    min-height: unset;
   }
   .bg6 .form-bg {
     background: unset;
@@ -2436,6 +2480,9 @@ ol.breadcrumb {
   }
   .bg10 p {
     font-size: 18px;
+  }
+  .sticker {
+    right: 15px;
   }
 }
 
@@ -2551,7 +2598,7 @@ ol.breadcrumb {
     background-position: 85% 75%;
   }
   .bg1 {
-    height: 950px;
+    min-height: 950px;
     background: url("/images/bg1.png") no-repeat;
   }
   .bg1 .header {
@@ -2606,7 +2653,7 @@ ol.breadcrumb {
   .bg2 {
     background: url("/images/bg2.png") no-repeat;
     background-size: 100% 905px;
-    height: 905px;
+    min-height: 905px;
   }
   .bg2 h1 {
     height: 260px;
@@ -2665,7 +2712,7 @@ ol.breadcrumb {
     bottom: -120px;
   }
   .bg3 {
-    height: 1610px;
+    min-height: 1610px;
     background: #f5f5f5;
   }
   .bg3 h1 {
@@ -2738,7 +2785,7 @@ ol.breadcrumb {
     margin-bottom: 40px;
   }
   .bg4 {
-    height: 920px;
+    min-height: 920px;
     background: url("/images/bg4.png") no-repeat;
     color: white;
   }
@@ -2825,7 +2872,7 @@ ol.breadcrumb {
     background-size: 560px 540px;
   }
   .bg5 {
-    height: 1080px;
+    min-height: 1080px;
     background: #f5f5f5;
   }
   .bg5 h1 {
@@ -2902,7 +2949,7 @@ ol.breadcrumb {
     margin-bottom: 40px;
   }
   .bg6 {
-    height: 1175px;
+    min-height: 1175px;
     background-color: #211b3d;
     color: white;
   }
@@ -2981,7 +3028,7 @@ ol.breadcrumb {
     border-radius: 0;
   }
   .bg7 {
-    height: 920px;
+    min-height: 920px;
     background: url("/images/bg2.png") no-repeat;
     background-size: 100% 920px;
     background-position-y: 100px;
@@ -3034,7 +3081,7 @@ ol.breadcrumb {
     top: -15px;
   }
   .bg8 {
-    height: 615px;
+    min-height: 615px;
     background: #f5f5f5;
   }
   .bg8 h1 {
@@ -3059,7 +3106,7 @@ ol.breadcrumb {
     margin-bottom: unset;
   }
   .bg9 {
-    height: 620px;
+    min-height: 620px;
   }
   .bg9 .map {
     position: absolute;
@@ -3099,7 +3146,7 @@ ol.breadcrumb {
     font-size: 36px;
   }
   .bg10 {
-    height: 365px;
+    min-height: 365px;
   }
   .bg10 h1 {
     font-size: 48px;

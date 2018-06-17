@@ -15,6 +15,7 @@
 
     .bg1 {
         height: unset;
+        min-height: unset;
 
         .header-space {
             padding: 0;
@@ -48,6 +49,7 @@
 
     .bg2 {
         height: unset;
+        min-height:unset;
 
         h1 {
             font-size: 30px;
@@ -87,6 +89,7 @@
 
     .bg3 {
         height: unset;
+        min-height: unset;
 
         h1 {
             font-size: 30px !important;
@@ -107,6 +110,7 @@
 
     .bg4 {
         height: unset;
+        min-height: unset;
         background-image: -moz-linear-gradient( 119deg, rgb(197,91,147) 0%, rgb(48,41,133) 100%);
         background-image: -webkit-linear-gradient( 119deg, rgb(197,91,147) 0%, rgb(48,41,133) 100%);
         background-image: -ms-linear-gradient( 119deg, rgb(197,91,147) 0%, rgb(48,41,133) 100%); 
@@ -217,6 +221,7 @@
 
     .bg5 {
         height: unset;
+        min-height: unset;
 
         .headers {
             height: unset;
@@ -244,6 +249,8 @@
     }
     .bg6 {
             height: unset;
+            min-height: unset;
+
             .form-bg::after {
                 display: none;
             }
@@ -324,6 +331,7 @@
         }
 
         height: unset;
+        min-height: unset;
         background: unset;
         .list-bg {
             background: unset;
@@ -375,6 +383,7 @@
 
     .bg8 {
         height: unset;
+        min-height: unset;
 
         h1 {
             height: 165px;
@@ -414,6 +423,7 @@
     
     .bg9 {
         height: unset;
+        min-height: unset;
 
         article {
             h1 {
@@ -698,5 +708,13 @@
                 margin-bottom: 320px;
             }
         }
+    }
+
+    .sticker {
+        width: 110px;
+        height: 110px;
+        background-size: contain;
+        background-position: top center;
+        right: 0px;
     }
 }
