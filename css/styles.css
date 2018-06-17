@@ -10,7 +10,7 @@
   background-size: 100% 100%;
 }
 
-.main {
+main {
   background-color: #f5f5f5;
 }
 
@@ -2811,6 +2811,7 @@ ol.breadcrumb {
   }
   .bg4 {
     min-height: 920px;
+    height: 920px;
     background: url("/images/bg4.png") no-repeat;
     color: white;
   }
@@ -2975,6 +2976,7 @@ ol.breadcrumb {
   }
   .bg6 {
     min-height: 1175px;
+    height: 1175px;
     background-color: #211b3d;
     color: white;
   }
