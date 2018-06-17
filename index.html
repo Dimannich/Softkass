@@ -18,7 +18,7 @@
             </button>
             <a class="navbar-brand logo col-8 col-md-3 col-lg-3 col-xl-2  mr-0" href="#"></a>
             <button class="navbar-toggler d-md-none col-2 border-0" type="button">
-                <span class="d-block cart-icon"></span>
+                <span class="d-block cart-icon float-right"></span>
             </button>
             <!-- <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
@@ -37,8 +37,53 @@
             <div class="col phone text-center text-md-right">
                 +7 (4212) 78-80-15
             </div>
+            <button class="navbar-toggler d-none d-md-block border-0 ml-3" type="button">
+                <span class="d-block cart-icon float-right"></span>
+            </button>
         </div>
      </nav>
+     <div class="modal fade" id="makeOrder" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content rounded-0">
+            <div class="modal-header flex-column mx-auto">
+                <h3 class="modal-title">Оставьте заявку</h3>
+                <h4 class="mx-auto text-center">и мы свяжемся с вами <br> в ближайшее время</h4>
+            </div>
+            <div class="modal-body">
+                <div class="align-items-center col-12 d-flex flex-column inputs mx-auto">
+                    <input type="text" placeholder="Введите ваше имя">
+                    <input type="tel" placeholder="Введите ваш телефон">
+                    <div class="btn-orange">
+                        <a id="submit" class="align-items-center col d-flex h-100 justify-content-center link" href="#">Заказать</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="policy" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content rounded-0">
+            <div class="modal-header flex-column mx-auto">
+                <h3 class="modal-title">Политика конфиденциальности</h3>
+            </div>
+            <div class="modal-body px-4 text-center">
+                <p>
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid position-fixed fixed-cart d-none">
+        <div class="row float-right">
+            <div class="align-items-center content d-flex">
+                <span class="ml-2 align-items-center counter d-flex justify-content-center rounded-circle">3</span> <span class="price ml-3 mr-2">30 000</span> руб. <a class="btn rounded-0 py-0 ml-3">Оформить</a>
+            </div>
+        </div>
+      </div>
     <main class="container-fluid" style="background-color: #f5f5f5;">
         <div class="row bg1">
                 <div class="col-12 d-flex justify-content-center header-space">
@@ -56,7 +101,7 @@
                                     <div><span class="attention position-relative">Внимание!</span> Осталось всего <span class="certificates position-relative d-inline-flex"></span> сертификата</div>
                                 </div>
                                 <div class="mt-5 btn-orange col-12 col-md-6 col-lg-5 col-xl-4">
-                                    <a class="align-items-center col d-flex h-100 justify-content-center link" href="#">Получить сертификат</a>
+                                    <a class="align-items-center col d-flex h-100 justify-content-center link order-modal" href="#">Получить сертификат</a>
                                 </div>
                             </div>
                         </div>
@@ -419,7 +464,7 @@
                         <p class="info mb-0">ИП Пак В.В. ЦТО Софт Касс <br class="d-sm-none"> ИНН 272590285600 ОГРН 317272400015828</p>
                     </div>
                     <div class="d-none d-sm-flex col-sm-6 justify-content-end">
-                            <a class="mt-auto d-flex link" href="#">Политика конфиденциальности</a>    
+                            <a class="mt-auto d-flex link policy" href="#">Политика конфиденциальности</a>    
                     </div>
                 </div>
             </div>

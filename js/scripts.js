@@ -8,9 +8,9 @@
     }
 
 
-        if($('main').find('nav').hasClass('breadcrumb-nav')) {
-            $('main').css('background', '#f5f5f5');
-        } 
+        // if($('main').find('nav').hasClass('breadcrumb-nav')) {
+        //     $('main').css('background', '#f5f5f5');
+        // } 
    
 
         $(document).ready(function () {
@@ -98,6 +98,25 @@
                     $.wait(function() { $('#cart').addClass('show')}, 0.3);
                 }, 0.5);
             });
+
+            $('.order-modal').click(function(e) {
+                e.preventDefault();
+                $('#makeOrder').modal('show');
+            });
+
+            $('.policy').click(function(e) {
+                e.preventDefault();
+                $('#policy').modal('show');
+            });
+        });
+
+        $(document).on('scroll DOMContentLoaded', function() {
+            if($(document).scrollTop() > 50) {
+                $('.fixed-cart').removeClass('d-none');
+            }
+            else {
+                $('.fixed-cart').addClass('d-none');
+            }
         });
 
         function numberWithSpaces(x) {

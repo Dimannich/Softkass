@@ -17,6 +17,22 @@
 
 body {
     font-family: GothamPro;
+
+    &.modal-open {
+        nav.navbar {
+            &.navbar-light {
+                right: 17px !important;
+            }
+        }
+
+        .fixed-cart {
+            right: 17px !important;
+        }
+
+        button.navbar-toggler {
+            margin-right: 0 !important;
+        }
+    }
 }
 nav {
     background: transparent;
@@ -41,6 +57,15 @@ nav {
     .phone {
         font-size: 30px;
         line-height: unset;
+    }
+
+    button {
+        &.navbar-toggler {
+            z-index: 1000;
+            span {
+                cursor: pointer;
+            }
+        }
     }
 
 }
@@ -1282,6 +1307,122 @@ ol.breadcrumb {
         }
     }
 }
+
+
+#makeOrder {
+    .modal-dialog {
+        max-width: 404px;
+    }
+
+    .modal-header {
+        border-bottom: unset;
+
+        h3 {
+            font-size: 30px;
+        }
+
+        h4 {
+            font-size: 16px;
+        }
+    }
+    .modal-body {
+        box-shadow: 0 15px 0 #3498db;
+    }
+    .inputs {
+        input {
+            max-width: 320px;
+            height: 48px;
+            width: 100%;
+            border-color: black;
+            border-width: 1px;
+            font-size: 12px;
+            background-color: white;
+            color: black;
+            margin-bottom: 30px;
+            padding: 0 20px;
+            &::placeholder {
+                color: black;
+                font-size: 12px;
+            }
+
+            
+        }
+
+        .btn-orange {
+            margin-top: 20px;
+            max-width: 320px;
+            height: 48px;
+            width: 100%;
+            margin-bottom: 44px;
+
+            .link {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+#policy {
+    .modal-body {
+        box-shadow: 0 15px 0 #3498db;
+    }
+
+    .modal-dialog {
+        max-width: 404px;
+        height: 483px;
+    }
+
+    .modal-header {
+        margin-top: 24px;
+        border-bottom: unset;
+
+        h3 {
+            font-size: 16px;
+        }
+    }
+
+    .modal-body {
+        font-size: 12px;
+        line-height: 24px;
+
+        p {
+            max-height: 500px;
+            overflow-y: auto;
+        }    
+    }
+}
+
+.fixed-cart {
+    max-width: 1200px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    z-index: 1080;
+
+    .content {
+        width: 300px;
+        height: 58px;
+        background-image: linear-gradient(270deg, #4f459d 0%, #e5007d 100%);
+        color: white;
+        .counter {
+            border: 1px solid white;
+            width: 35px;
+            height: 35px;
+        }
+        a {
+            background: white;
+            color: black;
+            width: 110px;
+            height: 28px;
+
+            &:hover {
+                color: black;
+            }
+        }
+    }
+}
+
+
 
 @import '_media';
 @import '_media-sm';
