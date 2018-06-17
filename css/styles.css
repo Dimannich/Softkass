@@ -18,6 +18,18 @@ body {
   font-family: GothamPro;
 }
 
+body.modal-open nav.navbar.navbar-light {
+  right: 17px !important;
+}
+
+body.modal-open .fixed-cart {
+  right: 17px !important;
+}
+
+body.modal-open button.navbar-toggler {
+  margin-right: 0 !important;
+}
+
 nav {
   background: transparent;
   height: 100px;
@@ -43,6 +55,14 @@ nav .logo {
 nav .phone {
   font-size: 30px;
   line-height: unset;
+}
+
+nav button.navbar-toggler {
+  z-index: 1000;
+}
+
+nav button.navbar-toggler span {
+  cursor: pointer;
 }
 
 .bg1 {
@@ -1252,6 +1272,116 @@ ol.breadcrumb {
 
 .cart #finish .return-block {
   margin-bottom: 320px;
+}
+
+#makeOrder .modal-dialog {
+  max-width: 404px;
+}
+
+#makeOrder .modal-header {
+  border-bottom: unset;
+}
+
+#makeOrder .modal-header h3 {
+  font-size: 30px;
+}
+
+#makeOrder .modal-header h4 {
+  font-size: 16px;
+}
+
+#makeOrder .modal-body {
+  box-shadow: 0 15px 0 #3498db;
+}
+
+#makeOrder .inputs input, #makeOrder .inputs .bg6 .form-bg textarea, .bg6 .form-bg #makeOrder .inputs textarea, #makeOrder .inputs .bg6 .form-bg select, .bg6 .form-bg #makeOrder .inputs select {
+  max-width: 320px;
+  height: 48px;
+  width: 100%;
+  border-color: black;
+  border-width: 1px;
+  font-size: 12px;
+  background-color: white;
+  color: black;
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+
+#makeOrder .inputs input::placeholder, #makeOrder .inputs .bg6 .form-bg textarea::placeholder, .bg6 .form-bg #makeOrder .inputs textarea::placeholder, #makeOrder .inputs .bg6 .form-bg select::placeholder, .bg6 .form-bg #makeOrder .inputs select::placeholder {
+  color: black;
+  font-size: 12px;
+}
+
+#makeOrder .inputs .btn-orange {
+  margin-top: 20px;
+  max-width: 320px;
+  height: 48px;
+  width: 100%;
+  margin-bottom: 44px;
+}
+
+#makeOrder .inputs .btn-orange .link {
+  font-size: 18px;
+}
+
+#policy .modal-body {
+  box-shadow: 0 15px 0 #3498db;
+}
+
+#policy .modal-dialog {
+  max-width: 404px;
+  height: 483px;
+}
+
+#policy .modal-header {
+  margin-top: 24px;
+  border-bottom: unset;
+}
+
+#policy .modal-header h3 {
+  font-size: 16px;
+}
+
+#policy .modal-body {
+  font-size: 12px;
+  line-height: 24px;
+}
+
+#policy .modal-body p {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.fixed-cart {
+  max-width: 1200px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  z-index: 1080;
+}
+
+.fixed-cart .content {
+  width: 300px;
+  height: 58px;
+  background-image: linear-gradient(270deg, #4f459d 0%, #e5007d 100%);
+  color: white;
+}
+
+.fixed-cart .content .counter {
+  border: 1px solid white;
+  width: 35px;
+  height: 35px;
+}
+
+.fixed-cart .content a {
+  background: white;
+  color: black;
+  width: 110px;
+  height: 28px;
+}
+
+.fixed-cart .content a:hover {
+  color: black;
 }
 
 @media (max-width: 575px) {
